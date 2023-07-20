@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fed57c1b1e.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .bg {
+        height: 100vh;
+        background-size: cover;
+        border-style: solid;
+        border-color: #d1d1d1;
+        border-radius: 10px;
+        margin: 1px;
+    }
+    .card-bottom {
+        margin-left: 16px;
+    }
+    .lock_1 {
+        margin-right: 10px;
+    }
+    .para_1 {
+        margin-top: 20px;
+
+    }
+    .head {
+        font-weight: 500;
+        font-size: 26px;
+    }
+    .para_2 {
+        font-size: 16px;
+        color: #8f9296;
+    }
+    .image{
+        height: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .bt {
+        height: 30px;
+        width: 120px;
+        border-radius: 5px;
+        border-width: 1px;
+        background-color: #fff;
+        border-style: solid;
+        border-color: black;
+        color: #0966e8;
+
+    }
+</style>
+<body>
+    <div class="bg">
+        <img src="https://source.unsplash.com/1600x1000/?kidsplaying" alt="" class="image">
+        <div class="card-bottom">
+            <p class="para_1"><i class="fa-solid fa-lock lock_1"></i>SUBSCRIBE TO ANY PLAN</p>
+            <h1 class="head">Get more features in Google Photos</h1>
+            <p class="para_2">Bring your favourite moment to life with more Google Photos editing for Android and iOS, including Magic Eraser.Subject to eligibility.</p>
+            <button class="bt">View details</button>
+        </div>
+    </div>
+
+</body>
+</html>
